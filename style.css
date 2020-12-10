@@ -1,0 +1,357 @@
+*{
+    box-sizing :border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  body{
+    background-image:url("images/back.png");
+    background-size:cover;
+    background-position:center-top;
+    background-repeat: none;
+    width:100%;
+    margin:0;
+    margin-top:50px;
+    padding:0;
+   }
+
+  main{
+    margin:0 auto;
+    max-width:1000px;
+    z-index:1;
+  }
+
+  header{
+    width:100%;
+    margin:0;
+    padding:0;
+    position: fixed;
+    top:0;
+    z-index:10;
+    background-color:#94b4a4;
+  }
+
+  .from-link , .hobby-link , .index-link{
+    margin:0;
+    padding:10px 30px;
+    font-size:40px;
+    color:white;
+  }
+
+  .logo{
+    width:80px;
+    height:60px;
+    margin:10px 20px;
+  }
+
+  .from-link a , .hobby-link a , .index-link a{
+    display:inline-block;
+    margin-top:0;
+    padding-top:0;
+  }
+
+  .link{
+    display:inline-block;
+    margin:0 0 0 auto;
+    margin-top:10px;
+    margin-right:30px;
+  }
+
+  .page-top{
+    max-width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+  }
+  
+  .index-container{
+    display:flex;
+    width:100%;
+  }
+
+  .index-left , .index-right{
+    width:50%;
+    height:400px;
+    margin-top:50px;
+    padding-left:0px;
+    text-align:center;
+}
+
+  .me img{
+    width:75%;
+    height:100%;
+    margin-right:60px;
+    margin-top:30px;
+    opacity:0.8;
+    border-radius:10px;
+  }
+  
+  .index-text h1{
+   font-size:120px;
+   margin-top:30px;
+   color:#94b4a4;
+   line-height:120px;
+  }
+
+  .index-text p{
+    color:#94b4a4;
+    font-size:30px;
+  }
+    
+  .arrow{
+    margin:10px auto;
+    font-size:70px;
+    text-align:center;
+    width: fit-content;
+    margin-top:30px;
+    margin-bottom:100px;
+    color:gray;
+    opacity:0.4;
+    transform:scale(2.0, 1.5);
+  }
+
+  .contents{ 
+    margin:0 auto;
+    text-align:center;
+  }
+  
+  .btn{
+    font-size:50px;
+    text-align:center;
+    padding:30px 30px;
+    margin:20px 50px;
+    color: white;
+    background-color:#8db596;
+    opacity:0.6;
+    border:3px solid #94b4a4;
+    border-radius:100vh;
+    display: inline-block;
+    transition: .4s;
+}
+
+  .btn:hover{
+    background-color:#707070;
+    border-color:#94b4a4;
+    color:#FFF;
+  }
+
+  .child , .heart{
+    display:inline;
+  }
+  
+  .photo{
+   margin-top:70px;
+   margin-bottom:10px;
+   display:flex;
+   justify-content:center;
+  }
+  
+  .jump , .noodle , .yuuhi{
+    padding:15px 10px;
+    width:30%;
+    height:300px;
+    object-fit:cover;
+    opacity:0.8;
+  }
+
+footer{
+  font-size:25px;
+  color:white;
+  background-color:#94b4a4;
+  width:100%;
+  margin:0;
+  margin-top:50px;
+  text-align:center;
+  padding:5px;
+}
+
+.from-title{
+  margin-top:80px;
+  font-size:80px;
+  color:#94b4a4;
+  text-align:center;
+  padding:0;
+  font-family:"Hannari";
+}
+
+.from-container{
+  display:flex;
+  margin-bottom:100px;
+  margin-top:10px;
+  margin-top:0;
+}
+
+.left-contents,.right-contents{
+  width:50%;
+  height:500px;
+  margin-top:50px;
+}
+
+.akita img{
+  height:100%;
+  width:100%;
+}
+
+.born{
+  font-size:30px;
+  color:#94b4a4;
+  font-family:"Hannari";
+  text-align:center;
+  border-top:solid 2px;
+  border-bottom:solid 2px;
+  margin-top:5px;
+}
+
+.born-text,.hosoku{
+  margin-top:15px;
+  font-size:18px;
+  color:#968c83;
+  font-family:"Hannari";
+}
+
+.hosoku-text{
+  font-size:15px;
+  font-family:"Hannari";
+  color:#968c83;
+}
+
+.text-link-content{
+  margin:0 auto;
+  text-align:center;
+}
+
+.text-link {
+    margin-top:10px;
+    display: inline-block;
+    padding:5px;
+    font-size:13px;
+    font-family:"hannari";
+    background: #fff;
+    border: 3px solid #92817a;
+    color: #92817a;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+.text-link:hover {
+    background: #f8f1f1;
+    color: #92817a;
+  }
+
+.right-contents img{
+  width:23%;
+  height:25%;
+  margin-top:20px;
+}
+
+.hobby-title{
+  margin-top:80px;
+  font-size:80px;
+  color:#94b4a4;
+  text-align:center;
+  padding:0;
+  font-family:"Hannari";
+}
+
+.hobby-wrap{
+  margin-bottom:80px;
+  margin-top:5px;
+}
+
+.hobby-contents{
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+}
+
+.food-contents , .view-contents , .music-contents{
+  padding-left:50px;
+  width:32%;
+  margin:0 auto;
+  margin-top:40px;
+  float:left;
+  flex:auto;
+  position:relative;
+}
+
+.food{
+  color:#734046;
+  font-size:50px;
+  font-family:"Hannari";
+  display:inline-block;
+}
+
+.food-section , .view-section , .music-section{
+  font-size:15px;
+  display:inline-block;
+  text-align:left;
+  color:#556052;
+  font-family:"Hannari";
+}
+
+.fa-utensils {
+  color:#92817a;
+  font-size:40px;
+  margin:30px;
+  display:block;
+}
+
+.view{
+  color:#734046;
+  font-size:50px;
+  font-family:"Hannari";
+  display:inline-block;
+}
+
+.fa-fish{
+  color:#92817a;
+  font-size:40px;
+  margin:30px;
+  display:block;
+}
+
+.music{
+  color:#734046;
+  font-size:50px;
+  font-family:"Hannari";
+  display:inline-block;
+}
+
+.fa-music{
+  color:#92817a;
+  font-size:40px;
+  margin:30px;
+  display:block;
+}
+
+.hobby-photo{
+  display:flex;
+  flex-wrap:wrap;
+  width:85%;
+  margin:0 auto;
+  text-align:center;
+  opacity:0.7;
+}
+
+.ice, .concert, .dome, .noodle2, .sea{
+  width:30%;
+  height:250px;
+  flex:auto;
+  padding-left:5px;
+}
+
+.ice{
+  width:20%;
+}
+
+.concert,.dome{
+  margin-top:20px;
+}
